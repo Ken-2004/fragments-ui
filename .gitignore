@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# Parcel build output and cache
+dist/
+.parcel-cache/
+# sensitive information
+.env
+# Local environment and secret files
+.env.*
+!.env.example
+!.env.aws.example
+# Local AWS configuration and credentials
+.aws/
+.direnv/
+.envrc
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+# Local package manager credentials
+.npmrc
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.tmp/

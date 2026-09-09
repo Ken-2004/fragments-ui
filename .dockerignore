@@ -1,0 +1,27 @@
+.git/
+.gitignore
+.github/
+.vscode/
+
+node_modules/
+dist/
+.parcel-cache/
+
+.env
+npm-debug.log*
+Usershp382AppDataRoamingnpm-cache
+
+# Local secrets and credentials
+.env
+.env.*
+.aws/
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Local verification tools and artifacts
+.tmp/

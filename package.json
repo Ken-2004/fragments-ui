@@ -1,0 +1,30 @@
+{
+  "name": "fragments-ui",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Browser client for the Fragments cloud microservice",
+  "scripts": {
+    "start": "parcel index.html --port 1234",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ken-2004/fragments-ui.git"
+  },
+  "author": "Harsh Prajapati",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "oidc-client-ts": "^3.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "targets": {
+    "default": {
+      "context": "browser"
+    }
+  }
+}
